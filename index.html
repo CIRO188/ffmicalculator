@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <title>FFMI CALCULATOR</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="peso.jpeg">
+    </head>
+    <body>
+        <div class="container">
+            <br><h1>FFMI CALCULATOR</h1><br><br><br><br>
+            <label>WEIGHT (kg)🏋️:</label>
+            <input type="number" min="0" max="200" id="weight"><br><br>
+            <label>HEIGHT (cm)📏:</label>
+            <input type="number" id="height"><br><br>
+            <label>BODY FAT(%)🍗:</label>
+            <input type="number" min="0" max="100" id="bf"><br><br><br>
+
+            <p id="result"></p><br><br>
+            <button onclick="calcolaFFMI()">CALCULATE FFMI</button>
+        </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
